@@ -1,0 +1,9 @@
+.app-bar-styles {
+  background-color: white !important;
+}
+.logo-toolbar {
+  width: 93%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}

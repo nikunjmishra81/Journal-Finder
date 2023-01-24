@@ -1,0 +1,13 @@
+.journals-list-main-grid-form {
+  height: 85%;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+}
+.journals-list-inner-grid-form {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5% !important;
+  width: 92% !important;
+}

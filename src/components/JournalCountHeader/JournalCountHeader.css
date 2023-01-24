@@ -1,0 +1,12 @@
+.journal-count-main-grid {
+  margin-top: 4rem !important;
+  margin-bottom: 3rem !important;
+  display: flex;
+}
+.journal-count-header-title {
+  font-weight: 300 !important;
+  font-family: Medium !important;
+  font-size: 1.5rem !important;
+  color: #6c6b6b;
+  width: 60% !important;
+}

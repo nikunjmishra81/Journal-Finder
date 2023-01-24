@@ -1,0 +1,49 @@
+.journal-list-catrd-info-inner-grid {
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.journal-list-card-content {
+  padding-top: 0.1rem !important;
+  display: flex;
+}
+.journal-list-card-media-style {
+  width: 10% !important;
+  border-radius: 5px;
+}
+.journal-list-card-box-style {
+  width: 100% !important;
+  margin-bottom: 2rem;
+}
+.journal-list-card-issn {
+  font-family: Medium !important;
+  color: #484848;
+  font-size: 1.2rem !important;
+  font-weight: 500;
+}
+.journal-list-card-fields {
+  font-family: Medium !important;
+  color: #6d6d6d !important;
+  font-size: 1.4rem !important;
+  font-weight: 500;
+}
+.journal-list-card-fields-data {
+  font-family: Medium !important;
+  color: #4e4e4e;
+  font-size: 1.5rem !important;
+  font-weight: 500;
+}
+.journal-list-card-data-fields {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 540px) {
+  .journal-list-card-media-style-width {
+    width: 50% !important;
+  }
+}

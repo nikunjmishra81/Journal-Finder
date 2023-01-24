@@ -1,0 +1,23 @@
+.main-grid {
+  height: 20%;
+}
+.header-title {
+  font-weight: 300 !important;
+  font-family: Medium !important;
+  font-size: 1.5rem !important;
+  color: #6c6b6b;
+}
+.find-journals {
+  font-family: Medium !important;
+  font-size: 3rem !important;
+}
+@media screen and (max-width: 400px) {
+  .main-grid-margin {
+    margin-bottom: 4rem !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main-grid-margin {
+    margin-bottom: 4rem !important;
+  }
+}

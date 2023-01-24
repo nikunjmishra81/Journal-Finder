@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+  journals_frontend_service:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: journals_frontend_container
+    image: journals_frontend_image
+
+  journals_nginx_service:
+    image: nginx:latest
+    container_name: journals_nginx_container
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf

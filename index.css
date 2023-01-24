@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Medium";
+  src: local("nexussanswebpro-bold"),
+    url("src/fonts/nexussanswebpro-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Medium";
+  src: local("nexussanswebpro"),
+    url("src/fonts/nexussanswebpro.woff") format("woff");
+}
+@font-face {
+  font-family: "Medium";
+  src: local("nexusserifwebpro"),
+    url("src/fonts/nexusserifwebpro.woff") format("woff");
+}
